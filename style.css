@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    overflow: hidden;
+    color: white;
+    background-image: url(red.jpg);
+    height:100vh;
+    width:100%;
+ }
+.imagee img{
+    height: 580px;
+    width: 660px;
+ }
+ .heading{
+    white-space: nowrap;
+ }
+ .headerr{
+    white-space: nowrap;
+ }
+ .imagee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 729px;
+    bottom: 356px;
+ }
+ .nav{
+    margin-left: 10px;
+    padding: 14px;
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+text-decoration: none;
+}
+.Start{
+    border: none;
+    margin-top: -10px;
+    background-color: #4F46BA;
+    height: 35px;
+    width: 90px;
+    color: white;
+}
+.header{
+    font-size: 40px;
+    line-height: 38px;
+    align-items: start;
+    padding-left: 140px;
+    margin-top: 80px;
+}
+.desc{
+    padding-left: 140px;
+    line-height: 24px;
+    padding-top:20px;
+}
+.End{
+    border: none;
+    align-items: center;
+    margin-left: 140px;
+    background-color: rgb(238, 34, 102);
+    color: white;
+    border-radius: 80px;
+    margin-top:20px;
+    height: 50px;
+    width: 140px;
+}
+.Ending{
+    margin-top:30px;
+    display: flex;
+    gap: 40px;
+}
+.Circle{
+    border: none;
+    margin-top:20px;
+    color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 80px;
+    background-color: #4F46BA;
+    align-items: center;
+}
+.right{
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top:30px;
+}
+.descr{
+    font-family: "Cedarville Cursive", cursive;
+    width:35%;
+    font-size: 18px;
+    margin-bottom:-80px;
+}
+.container{
+    width: 70%;
+    margin-top: 70px;
+}
+.offer{
+    margin-left: 420px;
+    display: flex;
+    gap: 60px;
+}
+.offer li a {
+    color: white;
+    text-decoration:none;
+}
+.image img{
+    border: 2px solid red;
+    top: 80px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+  margin-top: -20px;
+    display: flex;
+}
